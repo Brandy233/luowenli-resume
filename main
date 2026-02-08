@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>罗雯丽 - 前端简历</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        body {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.8;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .section-title {
+            font-size: 18px;
+            color: #2c3e50;
+            margin: 20px 0 10px;
+            font-weight: bold;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+        }
+        .project-item {
+            margin: 15px 0;
+            padding: 15px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .project-header {
+            font-weight: bold;
+            font-size: 16px;
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+        .tech-stack {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        .match-desc {
+            color: #27ae60;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .project-content {
+            padding-left: 20px;
+        }
+        .project-content li {
+            margin: 8px 0;
+            list-style: disc;
+        }
+        .link-tip {
+            color: #e74c3c;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>罗雯丽 - 前端开发简历</h1>
+
+    <div class="section-title">项目经验</div>
+    <div class="project-item">
+        <div class="project-header">1. 个人博客网站（Web端） | 2023.03 - 2023.05 | 独立开发</div>
+        <div class="tech-stack">技术栈：HTML5 + CSS3 + JavaScript + Vue.js + Vue Router + Git + GitHub Pages</div>
+        <div class="match-desc">岗位匹配：独立完成 Web 前端全流程开发，契合岗位 “Web 页面研发、组件复用、技术优化” 核心要求</div>
+        <ul class="project-content">
+            <li>基于 Vue.js 构建单页应用，封装10+通用组件（文章卡片、标签栏、评论区等），组件复用率达 80%，提升后续开发效率</li>
+            <li>实现响应式布局，适配 PC / 手机端，页面加载速度优化 30%，用户停留时长提升 25%</li>
+            <li>完成文章发布、标签分类、评论互动等核心功能，通过 GitHub Pages 部署，项目在线可访问</li>
+        </ul>
+        <div class="link-tip">项目链接：【请补充：https://xxx.github.io/xxx 或 GitHub 仓库链接】</div>
+    </div>
+</body>
+</html>
